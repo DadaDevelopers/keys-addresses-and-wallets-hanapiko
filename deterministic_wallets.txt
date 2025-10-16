@@ -1,0 +1,19 @@
+DETERMINISTIC WALLETS:
+- Generate all keys from one master seed
+- Easy backup becuse it just save 12-word seed phrase
+- Can recreate all keys from seed
+- Organized key structure (BIP32 hierarchy)
+
+NON-DETERMINISTIC WALLETS:
+- Each key is randomly generated independently
+- Must backup every single private key separately
+- Lose a key is equal to losing those funds forever
+- No relationship between keys
+
+WHY DEVELOPERS PREFER DETERMINISTIC
+1. User Experience
+- Users only remember one seed vs many keys
+2. Backup Safety
+- One backup protects entire wallet
+3. Recovery
+- Can restore wallet on any device with seed

@@ -1,0 +1,11 @@
+1. Security
+- Hardened keys are more secure - if someone gets your public key, they cannot figure out your private keys while
+Non-hardened keys are vulnerable to this attack.
+
+2. Key Derivation
+- Hardened keys use private key + chain code to generate children while 
+Non-hardened keys use public key + chain code
+
+3. Public Key Sharing
+- Non-hardened keys allow you to share public keys and generate child public keys without private keys while
+Hardened keys require private keys for all operations.

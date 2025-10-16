@@ -1,0 +1,11 @@
+- Legacy Address
+n3jwwKCmHD9Qp5Ti4UmQRi6uQLUnfAdhHk
+
+- Bech32 Address
+bcrt1qt05xf8nm66s4r2fzjrjjznvjxyagl7sxu095k9
+
+- Bech32m Address
+bcrt1plxf6chewacu3de92gk4m4dtwxmtg263m5der2lvhpyqmn9fm6tmqf0n0e8
+
+![Address Generation Screenshot](screenshot-addresses.png)
+
